@@ -1,0 +1,23 @@
+{
+  "name": "frontend",
+  "authors": [
+    "David Stam <dt.stam@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "weather-icons": "^2.0.10",
+    "jquery": "^3.1.0",
+    "font-awesome": "^4.6.3",
+    "bootstrap": "^3.3.7"
+  }
+}
