@@ -1,6 +1,41 @@
+@import 'https://fonts.googleapis.com/css?family=Catamaran:100|Jaldi|Open+Sans:400,700';
+
 body {
-  font-family: 'Jaldi', sans-serif;
-  background-image: url("../imgs/henk.jpg");
-  background-size: 100%;
-  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  /*background-image: url("../imgs/henk.jpg");
+  background-size: 100%;*/
+}
+
+.panel-default .panel-heading, .well {
+  background-color: #fff;
+}
+
+.wi {
+}
+
+h2 {
+  font-size:70px;
+}
+
+p {
+  font-size:40px;
+}
+
+#news ul {
+  font-size: 35px;
+}
+
+#email {
+}
+
+#gag {
+}
+
+#weather {
+}
+
+#news {
+}
+
+.screen {
 }

@@ -11,14 +11,20 @@ app.use(morgan("dev"));
 var
 weatherController = require("./controllers/weatherController"),
 newsController = require("./controllers/newsController"),
+gagController = require("./controllers/gagController"),
+gmailController = require("./controllers/gmailController"),
 
+gag = router.route("/9gag"),
 headlines = router.route("/headlines"),
 forecast = router.route("/forecast"),
+mail = router.route("/mail"),
 weather = router.route("/weather");
 
 headlines.get(newsController.getHeadlines);
 weather.get(weatherController.getWeather);
 forecast.get(weatherController.getForecast);
+gag.get(gagController.getLatestPost);
+mail.get(gmailController.getMail);
 
 app.use("/api", router);
 app.use("/", express.static(path.join(__dirname + "/../frontend")));
